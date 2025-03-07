@@ -17,10 +17,11 @@ public class FindMaxNumber {
     }
 
     static int maxNumber(int[] numbers) {
-        //problem: 3. bir dizideki en büyük sayıyı bulma.
+        //problem: bir dizideki en büyük sayıyı bulma.
         // int[] numbers = new int[10]; //random numbers array
         int maxNum = numbers[0];
-
+        //int maxNum = Integer.MIN_VALUE; //böyle de yazabiliriz. bu sayıdan daha küçük bir integer yok.
+        //Integer MIN_VALUE & MAX_VALUE değerlerine bakılabilir.
         for(int i = 1; i < numbers.length; i++) {
             if(numbers[i] > maxNum) {
                 maxNum = numbers[i];
