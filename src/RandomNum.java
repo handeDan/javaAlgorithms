@@ -14,7 +14,6 @@ public class RandomNum {
             rakamArr[i] = rand.nextInt(100);
             //System.out.println(random);
         }
-
         // 1-100 n uzunluğunda bir int array oluşturalım.
         // bu array'in her elemanı int sayı olacak.[23,55,63,63,...]
         // unique rakamları ekrana yazalım
@@ -27,6 +26,5 @@ public class RandomNum {
                 System.out.println(rakam);
             }
         }
-
     }
 }
